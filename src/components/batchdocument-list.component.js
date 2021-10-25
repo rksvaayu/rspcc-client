@@ -176,6 +176,13 @@ export default class BatchDocumentsList extends Component {
             </div>
           )}
         </div>
+
+        <div dangerouslySetInnerHTML={{ __html: "<iframe src='http://localhost:8081/demo_iframe.htm' style='border:2px solid red;' title='testing' />"}} >
+        </div>
+        <iframe src='http://localhost:8081/demo_iframe.htm' />
+        <div>
+
+        </div>
       </div>
     );
   }
